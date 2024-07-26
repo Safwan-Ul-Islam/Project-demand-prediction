@@ -1,0 +1,51 @@
+/* Apply background image to the body */
+body {
+    padding: 0;
+    
+    background-size: cover;
+    background-image: url("static/shopping-cart-with-wooden-elements.jpg"); /* Ensure this path is correct */
+    color: #333; /* Default text color */
+    font-family: Arial, sans-serif; /* Default font for better readability */
+}
+
+/* Style for the container */
+.container {
+    position: fixed; /* Fixed position to stay on the side of the screen */
+    top: 50px;
+    left: 80px; /* Default position on the left side */
+    width: 300px;
+    max-width: 500px;
+    background: rgba(205, 245, 28, 0.856); /* Semi-transparent background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth effect */
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Style for the heading */
+.container h2 {
+    margin-bottom: 20px; /* Space below the heading */
+    text-align: center; /* Center align the heading */
+}
+
+/* Style for form groups */
+.container .form-group {
+    margin-bottom: 15px; /* Space between form elements */
+}
+
+/* Style for form inputs */
+.container .form-control {
+    border-radius: 4px; /* Rounded corners for form inputs */
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); /* Subtle inner shadow */
+}
+
+/* Style for buttons */
+.container .btn {
+    width: 100%; /* Full-width button */
+}
+
+/* Style for result messages */
+#result {
+    margin-top: 20px; /* Space above the result messages */
+    text-align: center; /* Center align the result messages */
+}
